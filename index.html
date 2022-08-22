@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flappy bird by flebedev99™</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="loader" id="lod">
+      <label for="b"
+        ><img src="src/assets/bird.png" alt="bird" class="thumb" /> 🐥 Flappy
+        bird by flebedev99™ 🐥</label
+      >
+      <div class="bar" id="b"></div>
+    </div>
+    <h1></h1>
+    <a href="https://github.com/flebedev99" class="link" target="_blank"
+      >flebedev99 studios presents</a
+    >
+    <div id="gamearea" class="g">
+      <div class="game" title="Flappy bird">
+        <p class="score" id="sc">0</p>
+        <button class="startGame" id="startbtn">Start Game</button>
+        <img src="src/assets/bird.png" alt="Player" class="bird" id="plr" />
+        <img
+          src="src/assets/background.png"
+          alt="background"
+          class="background"
+        />
+        <img src="src/assets/ground.png" alt="ground" class="ground" id="gr" />
+        <img src="src/assets/pipe.png" alt="Obstacle" class="pipe" id="obs" />
+        <div class="progBar"><div class="prog" id="myprog"></div></div>
+      </div>
+    </div>
+    <button class="fullscreenbtn" id="fbtn">Lights out</button>
+    <script src="src/index.js"></script>
+  </body>
+</html>
